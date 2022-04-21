@@ -22,8 +22,8 @@ Click subscribe button the text entered in the input appears below the input and
 
 # Extra Tasks
 
-# Task 1
+## Task 1
 Create responsive
 
-# Task 2
+## Task 2
 Input validation : min length = 3,  max length = 20,  required @ symbol,  finish with ".lv"  If the condition is not met subscribe button disabled
