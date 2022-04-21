@@ -1,0 +1,37 @@
+.upcoming-trip {
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    gap: 7px;
+  }
+  
+  .upcoming-trip__icon {
+    padding: 20px 17px;
+    background-color: $bg-color;
+    border-radius: 8px;
+    height: 93px;
+  }
+  
+  .upcoming-trip__title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .upcoming-trip__text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 19px;
+  }
+  
+  .upcoming-trip__btn {
+    font-weight: 700;
+    font-family: inherit;
+    padding: 12px 47px;
+
+    &:hover {
+      background-color: transparent;
+      color: $accent-color;
+      border-color: $accent-color;
+    }
+  }

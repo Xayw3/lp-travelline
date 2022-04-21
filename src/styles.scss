@@ -1,0 +1,52 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+
+// Css components
+
+@import "assets/components/reset.scss";
+@import "assets/components/vars.scss";
+@import "assets/components/global.scss";
+
+// Hero screen
+
+@import "assets/styles/hero.scss";
+
+// Best-tour
+
+@import "assets/styles/best-tour.scss";
+
+// Information
+
+@import "assets/styles/info.scss";
+
+// Video
+
+@import "assets/styles/video-section.scss";
+
+// Team
+
+@import "assets/styles/team.scss";
+
+// Choose
+
+@import "assets/styles/choose-section.scss";
+
+// Customers
+
+@import "assets/styles/customers.scss";
+
+// Upcoming-trip
+
+@import "assets/styles/upcoming-trip.scss";
+
+// News
+
+@import "assets/styles/news.scss";
+
+// Footer
+
+@import "assets/styles/footer.scss";
+
+// Responsive
+
+@import "assets/components/responsive.scss";

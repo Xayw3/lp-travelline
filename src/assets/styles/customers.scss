@@ -1,0 +1,68 @@
+.customers__wrapper {
+    max-width: 700px;
+  }
+  
+  .testimonial {
+    text-transform: uppercase;
+    color: #2C2D32;
+    font-size: 20px;
+    position: relative;
+    margin-left: 129px;
+  
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: -129px;
+      transform: translateY(-50%);
+      width: 90px;
+      height: 1px;
+      background-color: #2C2D32;
+    }
+  }
+  
+  .customers__title {
+    font-size: 60px;
+    margin-bottom: 13px;
+  }
+  
+  .customers__text {
+    margin: 26px 0;
+  }
+  
+  .customers__send {
+    margin-top: 25px;
+  }
+  
+  .customers__input {
+    padding: 23px 150px 23px 66px;
+    color: #EE5060;
+    border: 1px solid #EE5060;
+    border-radius: 80px;
+    height: 80px;
+  
+    &::placeholder {
+      color: inherit;
+    }
+  }
+  
+  .customers__button {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #EE5060;
+    border-radius: 50%;
+    margin-left: -86px;
+  
+    & img {
+      margin: 0 auto;
+    }
+
+    &:hover img {
+      transform: scale(1.2);
+    }
+  }
+  
+  .customers__container {
+    display: flex;
+  }

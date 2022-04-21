@@ -1,0 +1,38 @@
+.video__wrapper {
+    padding: 45px 37px;
+    background-color: $bg-color;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .video__title {
+    font-weight: 500;
+  }
+  
+  .video__text {
+    margin: 68px 0 47px;
+    max-width: 666px;
+  }
+  
+  .video__link {
+    color: #EE5060;
+    text-decoration: underline;
+  }
+  
+  .video__content {
+    position: relative;
+  }
+  
+  .video__preview {
+    border-radius: 20px ;
+  }
+  
+  .video__btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+  }

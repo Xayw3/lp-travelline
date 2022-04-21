@@ -1,0 +1,465 @@
+/* ------ Media Queries ------ */
+
+/* 1201-1600px */
+
+@media screen and (max-width: 1600px) {
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .container-fluid {
+        max-width: 90%;
+    }
+
+    .header-inner {
+        justify-content: space-between;
+    }
+
+    .menu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .menu__list {
+        gap: 40px;
+    }
+
+    .btn {
+        padding-left: 14px;
+        padding-right: 14px;
+        font-size: 16px;
+    }
+
+    .phone {
+        gap: 7px;
+
+        & img {
+            max-width: 16px;
+        }
+    }
+
+    .video-btn {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .tour-slider__image {
+        width: 100%;
+    }
+
+    .tour-slider__slide {
+        gap: 32px;
+    }
+
+    .trip-info__wrapper {
+        width: 45%;
+        background-size: auto;
+    }
+
+    .team__text  {
+        margin-bottom: 100px;
+    }
+
+    .benefits__card {
+        padding: 88px 33px 42px;
+    }
+
+    .benefits__title {
+        margin-bottom: 47px;
+    }
+
+    .news__content {
+        flex-direction: column;
+    }
+
+    .main-news {
+        margin: auto;
+    }
+
+    .news__wrapper {
+        margin: auto;
+    }
+}
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        max-width: 960px;
+    }
+
+    .offer {
+        padding-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .offer__btns {
+        flex-wrap: wrap;
+    }
+
+    .offer__title {
+        font-size: 48px;
+    }
+
+    .js-slider-prev {
+        display: none;
+    }
+
+    .js-slider-next {
+        display: none;
+    }
+
+    .js-mobile-prev {
+        display: block;
+        left: 60px;
+        
+        &:hover {
+            left: 62px;
+        }
+    }
+
+    .js-mobile-next {
+        display: block;
+        right: 60px;
+
+        &:hover {
+            right: 62px;
+        }
+    }
+
+    .tour-slider__slide {
+        display: flex;
+    }
+
+    .tour-slider__wrapper {
+        display: none;
+        margin: 0 auto;
+    }
+
+    .tour-slider__wrapper.active {
+        display: block;
+    }
+
+    .trip-info__overlay {
+        padding: 82px 65px 115px;
+    }
+
+    .team__wrapper {
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .team-content__info {
+        justify-content: center;
+    }
+
+    .team-content__title {
+        text-align: center;
+    }
+
+    .team {
+        padding: 107px 0 110px;
+    }
+
+    .news-item__content {
+        justify-content: center;
+    }
+
+    .customers__button {
+        margin-left: -80px;
+        position: absolute;
+    }
+
+}
+
+/* 768-991px */
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .mobile-menu__list {
+        display: none;
+    }
+
+    .mobile-menu__list {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0px;
+        right: 0;
+        padding-top: 30px;
+        background-color: #fff;
+        max-width: 250px;
+        width: 100%;
+        height: 50%;
+        border-radius: 5px;
+        gap: 40px;
+        justify-content: center;
+        z-index: 5;
+        transition: all .5s ease;
+    }
+
+    .mobile-menu__list.active {
+        display: flex;
+    }
+
+    .logo {
+        margin-top: 10px;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 129px;
+        z-index: 5;
+        background: $bg-color;
+    }
+
+    .offer {
+        padding-top: 60px;
+    }
+
+    .best-tour {
+        padding-top: 126px;
+    }
+
+    .video__wrapper {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .team__text {
+        margin-bottom: 45px;
+    }
+
+    .benefits {
+        flex-wrap: wrap;
+    }
+
+    .customers__container {
+        flex-direction: column;
+    }
+
+    .customers__image {
+        max-width: 70%;
+        margin: 33px auto 0;
+    }
+}
+
+/* 576px-767px */
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .offer__title {
+        text-align: center;
+    }
+
+    .offer__image {
+        display: none;
+    }
+
+    .js-mobile-next {
+        right: -5px;
+
+        &:hover {
+            right: -5px;
+        }
+    }
+
+    .js-mobile-prev {
+        left: -5px;
+
+        &:hover {
+            left: -5px;
+        }
+    }
+
+    .trip-info {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .trip-info__wrapper {
+        width: 100%;
+    }
+
+    .tour-slider__wrapper {
+        height: 420px;
+    }
+
+    .information__text {
+        margin-bottom: 49px;
+    }
+
+    .information {
+        padding-bottom: 52px;
+    }
+
+    .video__text {
+        margin: 30px 0 18px;
+    }
+
+    .team {
+        padding: 50px 0 65px;
+    }
+
+    .choose {
+        padding-bottom: 70px;
+    }
+
+    .news__content {
+        margin-top: 36px;
+        gap: 50px;
+    }
+
+    .news-tag {
+        padding: 2px 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .news-item__content {
+        max-width: 328px;
+    }
+}
+
+/* 451px-575px */
+
+@media screen and (max-width: 575px) {	
+    .container {
+        max-width: 95%;
+    }
+
+    .offer__title {
+        font-size: 45px;
+    }
+
+    .offer__text {
+        max-width: 540px;
+        margin: 32px 0 32px;
+        text-align: center;
+    }
+
+    .offer__btns {
+        justify-content: center;
+    }
+
+    .best-tour {
+        padding-top: 91px;
+    }
+
+    .tour-slider__wrapper{
+        width: 80%;
+        height: 350px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .team-content {
+        margin-top: 0;
+    }
+
+    .choose__text {
+        font-size: 17px;
+    }
+
+    .customers__title {
+        font-size: 42px;
+    }
+
+    .news-item {
+        flex-direction: column;
+    }
+
+    .news {
+        padding-bottom: 80px;
+    }
+}
+
+
+/* 320-450px */
+
+@media screen and (max-width: 450px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .offer__title {
+        font-size: 32px;
+    }
+
+    .tour-slider__wrapper {
+        width: 70%;
+        height: 194px;
+    }
+
+    .customers__input {
+        padding: 23px 51px 23px 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .trip-info__overlay {
+        padding: 58px 13px 66px;
+    }
+
+    .video__text {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .customers__title {
+        font-size: 35px;
+    }
+
+    .subscribe {
+        flex-direction: column;
+    }
+
+    .footer__links {
+        flex-direction: column;
+    }
+
+    .footer__link--border {
+        &::after, &::before {
+            display: none;
+        }
+    }
+}
+
